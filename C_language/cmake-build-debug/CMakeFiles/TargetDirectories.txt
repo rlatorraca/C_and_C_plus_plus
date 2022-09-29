@@ -1,0 +1,15 @@
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/temperature_sensor_reader.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/binary_partitions_by_fseek.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/struct_using_pointer.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/saving_hex_file_by_union.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/read_file_any_place.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/enum.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/direct_access_pointer.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/typedef_examples.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/simple_users_signup.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/bitwise_operation_examples.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/mask_bits.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/inverting_a_bit_by_xor.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/bit_fields_examples.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/rebuild_cache.dir

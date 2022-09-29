@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C_language",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "binary_partitions_by_fseek::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary_partitions_by_fseek-Debug-263e3bf88fd6a9fde58f.json",
+					"name" : "binary_partitions_by_fseek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bit_fields_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bit_fields_examples-Debug-32582d5a348f58b12a98.json",
+					"name" : "bit_fields_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bitwise_operation_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bitwise_operation_examples-Debug-3ee25df72f688c09bc37.json",
+					"name" : "bitwise_operation_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_access_pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_access_pointer-Debug-40952b8c22f8aa17dcb4.json",
+					"name" : "direct_access_pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "enum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-enum-Debug-389bbc85ba9b7cbd9d5b.json",
+					"name" : "enum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inverting_a_bit_by_xor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inverting_a_bit_by_xor-Debug-0d9e0acb06d0019a9f7a.json",
+					"name" : "inverting_a_bit_by_xor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mask_bits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mask_bits-Debug-db1e03d5541459680c15.json",
+					"name" : "mask_bits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_file_any_place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_file_any_place-Debug-33e8ab4f65f032f3a927.json",
+					"name" : "read_file_any_place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saving_hex_file_by_union::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saving_hex_file_by_union-Debug-302f97da6120ae8c0bd9.json",
+					"name" : "saving_hex_file_by_union",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_users_signup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_users_signup-Debug-08f9cc7fc34ed778f77f.json",
+					"name" : "simple_users_signup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struct_using_pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struct_using_pointer-Debug-353c70a16929bf68d05a.json",
+					"name" : "struct_using_pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temperature_sensor_reader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temperature_sensor_reader-Debug-4893e8acff2b1415ff98.json",
+					"name" : "temperature_sensor_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "typedef_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-typedef_examples-Debug-594cba0e62e5724f029a.json",
+					"name" : "typedef_examples",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug",
+		"source" : "/home/rlatorraca/Projects/C-C++/Course_C/C_language"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
