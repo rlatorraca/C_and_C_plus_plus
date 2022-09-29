@@ -31,5 +31,7 @@
 *.out
 *.app
 
-*.vscode
-*.idea
+.vscode
+!.vscode/launch.json
+
+.idea
