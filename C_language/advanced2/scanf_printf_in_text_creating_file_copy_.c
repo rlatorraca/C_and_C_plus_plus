@@ -116,7 +116,7 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
     /* Press Enter to exit ... */
     system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
-    return 0; /* return 0, if MAIN function is exectued correctly  */
+    return 0; /* return 0, if MAIN function is executed correctly  */
 
 } /* END  main function */
 

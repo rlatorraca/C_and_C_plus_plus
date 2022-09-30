@@ -523,6 +523,37 @@ build dynamic_memory_example: C_EXECUTABLE_LINKER__dynamic_memory_example_Debug 
   TARGET_FILE = dynamic_memory_example
   TARGET_PDB = dynamic_memory_example.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target copying_data_to_file_dynamically
+
+
+#############################################
+# Order-only phony target for copying_data_to_file_dynamically
+
+build cmake_object_order_depends_target_copying_data_to_file_dynamically: phony || CMakeFiles/copying_data_to_file_dynamically.dir
+
+build CMakeFiles/copying_data_to_file_dynamically.dir/advanced2/copying_data_to_file_dynamically.c.o: C_COMPILER__copying_data_to_file_dynamically_Debug /home/rlatorraca/Projects/C-C++/Course_C/C_language/advanced2/copying_data_to_file_dynamically.c || cmake_object_order_depends_target_copying_data_to_file_dynamically
+  DEP_FILE = CMakeFiles/copying_data_to_file_dynamically.dir/advanced2/copying_data_to_file_dynamically.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/copying_data_to_file_dynamically.dir
+  OBJECT_FILE_DIR = CMakeFiles/copying_data_to_file_dynamically.dir/advanced2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target copying_data_to_file_dynamically
+
+
+#############################################
+# Link the executable copying_data_to_file_dynamically
+
+build copying_data_to_file_dynamically: C_EXECUTABLE_LINKER__copying_data_to_file_dynamically_Debug CMakeFiles/copying_data_to_file_dynamically.dir/advanced2/copying_data_to_file_dynamically.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/copying_data_to_file_dynamically.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = copying_data_to_file_dynamically
+  TARGET_PDB = copying_data_to_file_dynamically.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -564,7 +595,7 @@ build saving_hex_file_by_union: phony ../advanced2/saving_hex_file_by_union
 #############################################
 # Folder: /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug
 
-build all: phony temperature_sensor_reader binary_partitions_by_fseek struct_using_pointer ../advanced2/saving_hex_file_by_union ../advanced2/read_file_any_place ../advanced2/enum direct_access_pointer typedef_examples simple_users_signup bitwise_operation_examples mask_bits inverting_a_bit_by_xor bit_fields_examples digital_sensor_celsius_fahrenheit dynamic_memory_example
+build all: phony temperature_sensor_reader binary_partitions_by_fseek struct_using_pointer ../advanced2/saving_hex_file_by_union ../advanced2/read_file_any_place ../advanced2/enum direct_access_pointer typedef_examples simple_users_signup bitwise_operation_examples mask_bits inverting_a_bit_by_xor bit_fields_examples digital_sensor_celsius_fahrenheit dynamic_memory_example copying_data_to_file_dynamically
 
 # =============================================================================
 # Built-in targets

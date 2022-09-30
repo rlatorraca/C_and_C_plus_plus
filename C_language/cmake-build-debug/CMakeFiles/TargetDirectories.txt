@@ -13,5 +13,6 @@
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/bit_fields_examples.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/digital_sensor_celsius_fahrenheit.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/dynamic_memory_example.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/copying_data_to_file_dynamically.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/rebuild_cache.dir
