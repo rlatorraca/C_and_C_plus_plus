@@ -461,6 +461,37 @@ build bit_fields_examples: C_EXECUTABLE_LINKER__bit_fields_examples_Debug CMakeF
   TARGET_FILE = bit_fields_examples
   TARGET_PDB = bit_fields_examples.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target digital_sensor_celsius_fahrenheit
+
+
+#############################################
+# Order-only phony target for digital_sensor_celsius_fahrenheit
+
+build cmake_object_order_depends_target_digital_sensor_celsius_fahrenheit: phony || CMakeFiles/digital_sensor_celsius_fahrenheit.dir
+
+build CMakeFiles/digital_sensor_celsius_fahrenheit.dir/advanced2/digital_sensor_celsius_fahrenheit.c.o: C_COMPILER__digital_sensor_celsius_fahrenheit_Debug /home/rlatorraca/Projects/C-C++/Course_C/C_language/advanced2/digital_sensor_celsius_fahrenheit.c || cmake_object_order_depends_target_digital_sensor_celsius_fahrenheit
+  DEP_FILE = CMakeFiles/digital_sensor_celsius_fahrenheit.dir/advanced2/digital_sensor_celsius_fahrenheit.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/digital_sensor_celsius_fahrenheit.dir
+  OBJECT_FILE_DIR = CMakeFiles/digital_sensor_celsius_fahrenheit.dir/advanced2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target digital_sensor_celsius_fahrenheit
+
+
+#############################################
+# Link the executable digital_sensor_celsius_fahrenheit
+
+build digital_sensor_celsius_fahrenheit: C_EXECUTABLE_LINKER__digital_sensor_celsius_fahrenheit_Debug CMakeFiles/digital_sensor_celsius_fahrenheit.dir/advanced2/digital_sensor_celsius_fahrenheit.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/digital_sensor_celsius_fahrenheit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = digital_sensor_celsius_fahrenheit
+  TARGET_PDB = digital_sensor_celsius_fahrenheit.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -502,7 +533,7 @@ build saving_hex_file_by_union: phony ../advanced2/saving_hex_file_by_union
 #############################################
 # Folder: /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug
 
-build all: phony temperature_sensor_reader binary_partitions_by_fseek struct_using_pointer ../advanced2/saving_hex_file_by_union ../advanced2/read_file_any_place ../advanced2/enum direct_access_pointer typedef_examples simple_users_signup bitwise_operation_examples mask_bits inverting_a_bit_by_xor bit_fields_examples
+build all: phony temperature_sensor_reader binary_partitions_by_fseek struct_using_pointer ../advanced2/saving_hex_file_by_union ../advanced2/read_file_any_place ../advanced2/enum direct_access_pointer typedef_examples simple_users_signup bitwise_operation_examples mask_bits inverting_a_bit_by_xor bit_fields_examples digital_sensor_celsius_fahrenheit
 
 # =============================================================================
 # Built-in targets

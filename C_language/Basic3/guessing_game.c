@@ -26,7 +26,7 @@ int main()
     {
         printf("Invalid value. Number is \x82 5.\a\n");
         value = 5;
-        system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+        system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
     }
     system("clear"); /* Unix / Linux = Clear screen */
 
@@ -46,8 +46,8 @@ int main()
         printf("ERROR - Your Guess \x82 %d is HIGHER\n", value);
     }
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

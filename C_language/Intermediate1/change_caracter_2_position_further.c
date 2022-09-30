@@ -82,8 +82,8 @@ int main()
         putchar(chr + 2); /* putchar imprime no console, somado a 2 caraceters a frente*/
     }
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

@@ -28,8 +28,8 @@ int main()
             printf("'%d' is bigger than 5\n", value) : 
             printf("'%d' is lower or equal 5\n", value);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

@@ -53,8 +53,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
 
     printf("2x(%.2f) x 2x(%.2f) = %.2f\n", x, y, times_double(x, y));
 
-    /* Press Enter to continue ... */
-    system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

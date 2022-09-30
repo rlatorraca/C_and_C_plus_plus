@@ -77,8 +77,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
     postal_code[strcspn(postal_code, "\n")] = 0;   // Retira o ENTER incluido pelo fgets
     printf("Your address is: %s, %s. %s. P.O: %s\n", address, neigbourhood, city, postal_code);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

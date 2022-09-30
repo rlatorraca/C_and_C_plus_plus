@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
     save(new);                                      /* salva em arquivo binário */
 
 
-    system("read -p '\nPress Enter to continue...[RLSP]\n' key");  /* PAUSE Exceution - LINUX*/
+    system("read -p '\nPress Enter to exit...[RLSP]\n' key");  /* PAUSE Exceution - LINUX*/
     return 0;                                                               /* retorna 0, se main for executada corretamente */
 
 } /* end main */
@@ -117,7 +117,7 @@ void save(client c)
     if(file == NULL)                                                                 /* ponteiro está apontando para nada? */
     {                                                                                /* sim */
         printf("ERROR - saving into file\n");                                /* informa o erro */
-        system("read -p '\nPress Enter to continue...[RLSP]\n' key");       /* PAUSE Exceution - LINUX*/
+        system("read -p '\nPress Enter to exit...[RLSP]\n' key");       /* PAUSE Exceution - LINUX*/
         exit(1);                                                               /* sai do programa */
 
     } /* end if */

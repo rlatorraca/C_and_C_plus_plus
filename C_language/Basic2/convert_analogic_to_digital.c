@@ -33,8 +33,8 @@ int main()
     voltage = (float)(value_ADC * 5.0 / 1023.0);
     printf("Voltage read is [Casting]: %.2fV\n", voltage);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

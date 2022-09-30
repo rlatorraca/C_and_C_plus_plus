@@ -57,8 +57,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
     printf("Resistor resistence is %.2f Ohm. [by Function] \n", resistor_resistence(12.0, 1.0e-3));
     /*
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

@@ -79,8 +79,8 @@ int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
     printf("Dry_martini:    $%2.2f\n",open_bar_values.dry_martini_value); /* imprime 222 */
     printf("BRL Capirinha:  $%2.2f\n",open_bar_values.caipirinha_value); /* imprime 333 */
 
-    /* Press Enter to continue ... */
-    system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

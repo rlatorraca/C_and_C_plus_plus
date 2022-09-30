@@ -58,9 +58,9 @@ int main()
     printf("Cylinder Volume DOUBLE [15 precision]: %.15f\n\n", vol_cilin_double);
 
     /* +++++++++++++++++++++++++++++++++++ */
-    /* +++ Press Enter to continue ... +++ */
+    /* +++ Press Enter to exit ... +++ */
     /* +++++++++++++++++++++++++++++++++++ */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     return 0; /* return 0, if MAIN function is exectued correctly  */
 

@@ -79,8 +79,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
 
     printf("Is %.2f > %.2f ? Based on gcc-11 compiler the higher is %d\n", (float)number01, (float)number02, higher(number01, number01));
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

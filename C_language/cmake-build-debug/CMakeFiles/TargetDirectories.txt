@@ -11,5 +11,6 @@
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/mask_bits.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/inverting_a_bit_by_xor.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/bit_fields_examples.dir
+/home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/digital_sensor_celsius_fahrenheit.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug/CMakeFiles/rebuild_cache.dir

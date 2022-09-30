@@ -50,8 +50,8 @@ int main()
     printf("Cararter Hex em ASCII - OCtal %o\n", caracterHex);
     printf("Cararter Hex em ASCII - Hexadecimal %X\n\n", caracterHex);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key");
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key");
 
     return 0;
 }

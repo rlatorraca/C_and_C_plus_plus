@@ -91,13 +91,13 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
         if (!strcmp(com, "BIP"))
             putchar('\a');
         else if (!strcmp(com, "CLEAR"))
-            system("read -p 'Press Enter to continue...[RLSP]\n' key");
+            system("read -p 'Press Enter to exit...[RLSP]\n' key");
         else if (!strcmp(com, "ESC"))
             break;
     }
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

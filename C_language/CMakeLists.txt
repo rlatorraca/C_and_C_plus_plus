@@ -19,3 +19,4 @@ add_executable(bitwise_operation_examples advanced2/bitwise_operation_examples.c
 add_executable(mask_bits advanced2/mask_bits.c)
 add_executable(inverting_a_bit_by_xor advanced2/inverting_a_bit_by_xor.c)
 add_executable(bit_fields_examples advanced2/bit_fields_examples.c)
+add_executable(digital_sensor_celsius_fahrenheit advanced2/digital_sensor_celsius_fahrenheit.c)

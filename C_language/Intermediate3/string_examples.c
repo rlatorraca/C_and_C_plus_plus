@@ -71,8 +71,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
     printf("Your complete name is : %s %s\n", name, surname);
     printf("Your address is: %s\n", address);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

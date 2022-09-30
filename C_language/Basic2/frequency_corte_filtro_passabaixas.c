@@ -34,8 +34,8 @@ int main()
     printf("[Cientific] Frequency = 1 / (2 * %.12e * %.2e * %.2e) = %.2e Hertz\n\n", pi, R, C, frequency);
     printf("[Float]     Frequency = 1 / (2 * %.12f * %.2f * %.6f) = %.2f Hertz\n\n", pi, R, C, frequency);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

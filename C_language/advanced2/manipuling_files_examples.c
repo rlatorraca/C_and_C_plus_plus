@@ -86,14 +86,14 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
     if ((file_rlsp = fopen("teste.txt", "w")) == NULL)
     {
         printf("ERROR\n");
-        system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+        system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
         exit(0);
     }
 
     if ((file_rlsp_read = fopen("teste.txt", "r")) == NULL)
     {
         printf("ERROR\n");
-        system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+        system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
         exit(0);
     }
 
@@ -132,8 +132,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
     fclose(file_rlsp);
     printf("Success - File is read !!!\n");
 
-    /* Press Enter to continue ... */
-    system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS */
     return 0; /* return 0, if MAIN function is exectued correctly  */

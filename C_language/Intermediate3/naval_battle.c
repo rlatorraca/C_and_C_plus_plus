@@ -95,7 +95,7 @@ int main()
         if (opt == 'e' || opt == 'E')
         {
             system("clear");
-            system("read -p 'Exiting ....Press Enter to continue...[RLSP]\n' key"); /* pausa */
+            system("read -p 'Exiting ....Press Enter to exit...[RLSP]\n' key"); /* pausa */
             exit(0);
         }
     } while (opt != 'p' && opt != 'P'); /* encerra o loop quando digitado p e P para jogar */
@@ -132,7 +132,7 @@ int main()
                 printf("WE'VE BEEN DEFEATED !!!\n");                        /* o jogador perde */
                 for (i = 0; i < 5; i++)                                     /* repete 5 alertas sonoros */
                     printf("\a");                                           /* sinal sonoro */
-                system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* pausa */
+                system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* pausa */
                 exit(0);                                                    /* interrompe programa */
 
             } /* end if erros */
@@ -144,7 +144,7 @@ int main()
 
     } /* end while */
 
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
     return 0;                                                   /* retorna 0, se main for executada corretamente */
 
 } /* end main */

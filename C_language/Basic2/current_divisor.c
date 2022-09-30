@@ -29,8 +29,8 @@ int main()
 
     printf("Vout = (%.0f / (%.0f + %.0f)) * %.1f = %.2f Volts\n\n", R2, R2, R1, Vin, Vout);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

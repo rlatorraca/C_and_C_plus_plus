@@ -66,8 +66,8 @@ int main() /* int de returna em Funcoes em C é OPTIONAL*/
             break;
 
         case 4:
-            /* Press Enter to continue ... */
-            system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+            /* Press Enter to exit ... */
+            system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
             exit(0); /* EXIT SUCCESS */
         }
@@ -88,8 +88,8 @@ void push(int value)
     if (pointer1 == (pointer_minimum_level + LEVELS)) /* Se atinggiu o limite da Stack LEVELS lanca o Stack Overflow*/
     {
         printf("STACK OVERFLOW...\n");
-        /* Press Enter to continue ... */
-        system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+        /* Press Enter to exit ... */
+        system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
         exit(0); /* EXIT SUCCESS */
     }
@@ -117,7 +117,7 @@ void print_stack()
         printf("No data yet into Stack\n");
     }
 
-    system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 } /*---- end print_stack() ----*/
 
 int pop()
@@ -125,7 +125,7 @@ int pop()
     if (pointer1 == pointer_minimum_level)
     {
         printf("Stack is EMPTY\n");
-        system("read -p 'Press Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+        system("read -p 'Press Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
     }
     else
     {

@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
     if (file_w == NULL)
     {
         printf("ERROR - writng...\n");
-        system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+        system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
         exit(1);
     }
     fwrite(vec1, sizeof(char), 20, file_w);
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
     if (file_r == NULL)
     {
         printf("ERROR - wiriing...\n");
-        system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+        system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
         exit(2);
     }
 
@@ -96,8 +96,8 @@ int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
     fclose(file_r);
     printf("\nFile printed successfully...\n");
 
-    /* Press Enter to continue ... */
-    system("read -p '\nPress Enter to continue...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */

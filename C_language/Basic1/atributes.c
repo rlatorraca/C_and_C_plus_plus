@@ -33,8 +33,8 @@ int main()
     printf("Total  = %d\n", total);
     printf("Var4 after * (-10)   = %d\n\n", var4);
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key");
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key");
 
     return 0;
 }

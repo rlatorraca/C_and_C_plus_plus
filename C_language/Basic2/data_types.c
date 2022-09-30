@@ -141,8 +141,8 @@ int main()
             %lu = unsigned long     long INT + (4 bytes)
     */
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key");
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key");
 
     return 0;
 }

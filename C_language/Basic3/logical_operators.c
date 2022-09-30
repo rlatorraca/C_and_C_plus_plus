@@ -64,8 +64,8 @@ int main()
     printf("+++++ Testing Operators precedence +++++");
     printf("[ 0 = FALSE; 1 = TRUE ]\nExpression: 15>11 && 8,4 || 7>=2\nResult: %d\n", (15 > 11 && 8, 4 || 7 >= 2));
 
-    /* Press Enter to continue ... */
-    system("read -p 'Press Enter to continue...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
+    /* Press Enter to exit ... */
+    system("read -p 'Press Enter to exit...[RLSP]' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is exectued correctly  */
