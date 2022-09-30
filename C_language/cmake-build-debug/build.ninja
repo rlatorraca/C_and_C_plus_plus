@@ -492,6 +492,37 @@ build digital_sensor_celsius_fahrenheit: C_EXECUTABLE_LINKER__digital_sensor_cel
   TARGET_FILE = digital_sensor_celsius_fahrenheit
   TARGET_PDB = digital_sensor_celsius_fahrenheit.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target dynamic_memory_example
+
+
+#############################################
+# Order-only phony target for dynamic_memory_example
+
+build cmake_object_order_depends_target_dynamic_memory_example: phony || CMakeFiles/dynamic_memory_example.dir
+
+build CMakeFiles/dynamic_memory_example.dir/advanced2/dynamic_memory_example.c.o: C_COMPILER__dynamic_memory_example_Debug /home/rlatorraca/Projects/C-C++/Course_C/C_language/advanced2/dynamic_memory_example.c || cmake_object_order_depends_target_dynamic_memory_example
+  DEP_FILE = CMakeFiles/dynamic_memory_example.dir/advanced2/dynamic_memory_example.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/dynamic_memory_example.dir
+  OBJECT_FILE_DIR = CMakeFiles/dynamic_memory_example.dir/advanced2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dynamic_memory_example
+
+
+#############################################
+# Link the executable dynamic_memory_example
+
+build dynamic_memory_example: C_EXECUTABLE_LINKER__dynamic_memory_example_Debug CMakeFiles/dynamic_memory_example.dir/advanced2/dynamic_memory_example.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/dynamic_memory_example.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = dynamic_memory_example
+  TARGET_PDB = dynamic_memory_example.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -533,7 +564,7 @@ build saving_hex_file_by_union: phony ../advanced2/saving_hex_file_by_union
 #############################################
 # Folder: /home/rlatorraca/Projects/C-C++/Course_C/C_language/cmake-build-debug
 
-build all: phony temperature_sensor_reader binary_partitions_by_fseek struct_using_pointer ../advanced2/saving_hex_file_by_union ../advanced2/read_file_any_place ../advanced2/enum direct_access_pointer typedef_examples simple_users_signup bitwise_operation_examples mask_bits inverting_a_bit_by_xor bit_fields_examples digital_sensor_celsius_fahrenheit
+build all: phony temperature_sensor_reader binary_partitions_by_fseek struct_using_pointer ../advanced2/saving_hex_file_by_union ../advanced2/read_file_any_place ../advanced2/enum direct_access_pointer typedef_examples simple_users_signup bitwise_operation_examples mask_bits inverting_a_bit_by_xor bit_fields_examples digital_sensor_celsius_fahrenheit dynamic_memory_example
 
 # =============================================================================
 # Built-in targets
