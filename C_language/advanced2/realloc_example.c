@@ -1,10 +1,16 @@
 ﻿/* ============================================================================
 
-    Program: Irá ler um arquivo de texto e alocar memória suficiente para exibir
-    o seu conteúdo na tela.
+    Program: REALLOC
 
-    Outra grande vantagem da memória dinâmica é quando falamos em softwares
-    que irão ler algum arquivo e realizar um processamento a partir deste.
+    Esta função tem o objetivo de modificar o tamanho da memória que foi
+    previamente alocada e apontada por ptr para o tipo size. A função realloc
+    retorna um ponteiro para o bloco de memória, pois ela poderá mover esse
+    bloco para ampliar seu tamanho. Se ptr for NULL, realloc devolve um ponteiro
+    para a memória alocada. Caso size seja zero, será liberada a memória apontada
+    por ptr. O código abaixo ilustra uma aplicação do realloc, quando deseja-se
+    realocar espaço para concatenar duas strings.
+
+        void *realloc(void *ptr, size_t size);
 
     Author: RLSP
     Created: September 2022
@@ -26,64 +32,49 @@
 /* --- MACROS --- */
 
 /* ========================================================================= */
-/* --- FUNCTIONS PROTOTYPES | STRUCT --- */
+/* --- STRUCTS || UNIONS --- */
 
+/* ========================================================================= */
+/* --- FUNCTIONS PROTOTYPES --- */
+long *vector_long(unsigned qtd);
 
 /* ========================================================================= */
 /* --- MAIN FUNCTION --- */
 int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
 {
 
-    FILE *file;
+    char *palloc;
 
-    unsigned char *palloc;
-    unsigned long int num_characters=0,i=0;
-    unsigned int chr;
+    palloc = malloc(8);
 
-    file = fopen("code.txt", "r");
-
-    if(file == NULL)
+    if(!palloc) /* 1 ou algum valor = TRUE | 0 = false [oposto a qualquer valor]*/
     {
-        printf("ERROR...opening file [RLSP].\n");
+        puts("Fatal error");
         system("read -p '\nPress Enter to exit...[RLSP]\n' key");
-        exit(0);
+        exit(1);
     }
-    printf("File opened successfully!\n\n");
+    strcpy(palloc,"RLSP"); /* Copia "RLSP" para dentro do palloc*/
 
-    while((chr = fgetc(file)) != EOF)
-        num_characters++;
+    printf("Before realloc() : %s\n", palloc);
+    printf("palloc size      : %d\n", strcspn(palloc, "\n"));
 
-    printf("File size: %lu bytes\n\n", num_characters);
-    rewind(file);                               /* ponteiro retorna ao início do arquivo */
+    palloc = realloc(palloc,19); /* REALOCA para 19 bytes */
 
-    /* aloca memória de acordo com tamanho do arquivo */
-    palloc = (unsigned char *) malloc(num_characters * sizeof(char));
-
-    if(palloc == NULL)
+    if(!palloc)
     {
-        printf("Out of memory.\n");
+        puts("Fatal error");
         system("read -p '\nPress Enter to exit...[RLSP]\n' key");
-        exit(0);
+        exit(1);
     }
-    /* Le e armazena os caracteres */
-    while((chr = fgetc(file)) != EOF)
-    {
-        if(i <= num_characters){
-            palloc[i] = (unsigned char) chr;
-        }
+    strcat(palloc," Holland College"); /* Concatenate two strings */
 
-        i++;
-    }
+    printf("\nAfter realloc()  : %s\n", palloc);
+    printf("palloc size      : %d\n", strcspn(palloc, "\n"));
 
-    /* IMPRIME o texto*/
-    for(i=0; i < num_characters; i++)
-        printf("%c",palloc[i]);
-
-    fclose(file);                                /* fecha arquivo */
-    free(palloc);                                   /* libera memória */
+    free(palloc);
 
     /* Press Enter to exit ... */
-    system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Execution - LINUX*/
+    system("read -p '\nPress Enter to exit...[RLSP]\n' key"); /* PAUSE Exceution - LINUX*/
 
     /*  system("PAUSE"); PAUSE Exceution - WINDOWS*/
     return 0; /* return 0, if MAIN function is executed correctly  */
@@ -92,8 +83,19 @@ int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
 
 /* ========================================================================= */
 /* --- FUNCTIONS --- */
-
-
+long *vector_long(unsigned qtd)
+{
+    long *palloc;
+    palloc = calloc(qtd, sizeof(long));
+    printf("!palloc = %2d\n", !palloc);
+    printf("palloc  = %2d\n", palloc);
+    if(!palloc) /* 1 ou algum valor = TRUE | 0 = false [oposto a qualquer valor]*/
+    {
+        printf("Fatal error\n");
+        exit(1);
+    }
+    return palloc;
+}
 
 /* ============================================================================
 ===============================================================================
@@ -111,4 +113,3 @@ int main(int argc, char *argv[]) /* int de returna em Funcoes em C é OPTIONAL*/
 ===============================================================================
 ===============================================================================
 ============================================================================ */
-
